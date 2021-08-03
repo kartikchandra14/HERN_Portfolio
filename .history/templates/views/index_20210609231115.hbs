@@ -1,0 +1,44 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="../css/bootstrap.min.css">
+        {{!-- <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
+        <link rel="stylesheet"  href="css/style.css">
+        <title>Handlebars js</title>
+    </head>
+    <body>
+        {{>navbar}}
+        {{!-- 1 content hero  --}}
+        <div class="container-fluid mt-5">
+          <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                <h1>We will help you grow</h1>
+                <h1>Grow your business</h1>
+                <p>
+                  We are team of 
+                  <span>
+                      proffesional developers
+                  </span>
+                </p>
+                <button class="btn-style btn-primary">
+                  Read More
+                </button>
+              </div>
+              <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                <figure class="">
+                  <img class="" src="assets/illustration.jpg" style="width:100%">
+                </figure>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        {{!-- 2 about us --}}
+        {{>about}}
+        <script type="text/javascript" src="../jq/jquery.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.js"></script>
+    </body>
+</html>
